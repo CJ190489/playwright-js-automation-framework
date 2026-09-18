@@ -3,8 +3,8 @@ const {HomePage} = require('../pageobjects/HomePage');
 
 exports.customtest = base.test.extend({
     normalloginData : {
-        username: "Test_456" ,
-        password:"Test"
+        username: "B" ,
+        password:"B"
     },
 
 

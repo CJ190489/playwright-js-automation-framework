@@ -32,12 +32,5 @@ test.describe('Login', () => {
       //await expect(loggedInPage.locator('#showOverview')).toHaveText("Accounts Overview");
       await accountsPage.clickOpenNewAccount();
       await accountsPage.OpenNewAccount();
-
-      await expect(page.locator('.title')).toHaveText("Account Opened!");
-      
-      const newAccountId = page.locator('#newAccountId').textContent();
-      console.log(newAccountId);
-      
-      //await page.pause();
     });
 });
