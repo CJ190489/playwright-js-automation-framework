@@ -1,6 +1,7 @@
 
 const { createUser } = require('../Utils/testdataregister');
 
+
 class RegisterPage {
   constructor(page) {
     this.page = page;
